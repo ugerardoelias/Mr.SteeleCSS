@@ -1,0 +1,58 @@
+html, body, main {
+    margin: 0px;
+    height: 100%;
+}
+
+header {
+    background-color:rgb(127, 170, 140);
+    background-image: url(imagenes/uav.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+header ul {
+    display: flex;
+    justify-content: right;
+    padding-left: 0px;
+    list-style: none;
+}
+
+header ul li {
+    padding: 0px 40px;
+}
+
+main {
+    padding: 101px 0px 133px;
+}
+
+footer {
+    background-color: #ffff;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: end;
+    padding-left: 0px;
+    list-style: none;
+}
+
+footer ul li {
+    padding: 0px 20px;
+}
+
+footer P {
+    text-align: left;
+}
+
+main {
+    background-color: hotpink;
+    background-image: url(imagenes/yellow-submarine.jpg.png);
+}
